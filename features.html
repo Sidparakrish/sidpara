@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!---- title ----->
+    <title>Colorlib | features</title>
+
+    <!---- swiper css cdn link ---->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+
+    <!---- customer css file ---->
+    <link rel="stylesheet" href="./style.css">
+
+    <!---- boxicon cdn link ---->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+</head>
+<body>
+
+    <header class="header">
+        <div class="top-header" style="background: #fff; box-shadow: 0 0 4px #222;">
+            <div class="logo">
+                <img src="./images/logo/logo-01.png.webp" alt="">
+            </div>
+            <div class="navBar">
+                <a href="./index.html">home</a>
+                <a href="./shop.html">shop</a>
+                <a href="./features.html" class="active">features</a>
+                <a href="./blog.html">blog</a>
+                <a href="./about.html">about</a>
+                <a href="./contact.html">contact</a>
+                <i class='bx bx-x' id="close"></i>
+            </div>
+            <div class="others">
+                <i class='bx bx-search-alt-2' ></i>
+                <i class='bx bx-cart-alt' ></i>
+                <i class='bx bx-heart' ></i>
+                <i class='bx bx-menu-alt-left' id="menuBar"></i>
+            </div>
+        </div>
+        
+    </header>
+
+    <!---- feature section start -->
+    <section class="features">
+        <div class="tags">
+            <span><a href="#">home</a>/ shopping cart</span>
+        </div>
+
+        <div class="main-features">
+            <div class="slide_one">
+                <div class="feature-col">
+                    <h4>product</h4>
+                    <h4>price</h4>
+                    <h4>quantity</h4>
+                    <h4>total</h4>
+                </div>
+                <div class="feature-col">
+                    <div class="image">
+                        <img src="./images/features/item-cart-04.jpg.webp" alt="">
+                        <span>freash strawberries</span>
+                    </div>
+                    <p>$ 36.00</p>
+                    <input type="number" value="1">
+                    <p>$ 36.00</p>
+                </div>
+                <div class="feature-col">
+                    <div class="image">
+                        <img src="./images/features/item-cart-05.jpg.webp" alt="">
+                        <span>lightweight jacket</span>
+                    </div>
+                    <p>$ 16.00</p>
+                    <input type="number" value="1">
+                    <p>$ 16.00</p>
+                </div>
+                <div class="feature-col_three">
+                    <input type="text" placeholder="coupon code">
+                    <button>apply coupon</button>
+                    <button>update cart</button>
+                </div>
+            </div>
+            <div class="slide_two">
+                <div class="cart_head">
+                    <h3>cart totals</h3>
+                </div>
+                <div class="cart_cont">
+                    <div class="col-5">
+                        <h5>subtotal:</h5>
+                        <div class="container">
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur, fuga!</p><br>
+                            <span>calculate shipping</span><br>
+                            <select>
+                                <option value="">select country</option>
+                                <option value="">USA</option>
+                                <option value="">UK</option>
+                            </select><br>
+                            <input type="text" placeholder="state/country"><br>
+                            <input type="text" placeholder="postcode/zip"><br>
+                            <button>update totals</button>
+                        </div>
+                    </div>
+                    <div class="col-5">
+                        <h3>total:</h3>
+                        <p>$179.65</p>
+                        
+                    </div>
+
+                    <button>proceed to checkout</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+
+    <!---- footer section ---->
+    <section class="footer">
+        <div class="main-footer">
+            <div class="col-3">
+                <h4>categories</h4>
+                <a href="#">women</a>
+                <a href="#">men</a>
+                <a href="#">shoes</a>
+                <a href="#">watches</a>
+            </div>
+            <div class="col-3">
+                <h4>help</h4>
+                <a href="#">track order</a>
+                <a href="#">returns</a>
+                <a href="#">shipping</a>
+                <a href="#">FAQs</a>
+            </div>
+            <div class="col-3">
+                <h4>get in touch</h4>
+                <p><span>any quection?</span> let us know in store at 8th</p>
+                <p>floor, 379 hudsan St, New York</p>
+                <p>call us on +96 456 3456</p>
+                <div class="social">
+                    <i class='bx bxl-facebook' ></i>
+                    <i class='bx bxl-instagram' ></i>
+                    <i class='bx bxl-pinterest-alt' ></i>
+                </div>
+            </div>
+            <div class="col-3">
+                <h4>news letter</h4>
+                <input type="email" placeholder="email@gmail.com">
+                <button>subscribe</button>
+            </div>
+        </div>
+        <div class="container">
+            <div class="payment">
+                <img src="./images/logo/icon-pay-01.png.webp" alt="">
+                <img src="./images/logo/icon-pay-02.png.webp" alt="">
+                <img src="./images/logo/icon-pay-03.png.webp" alt="">
+                <img src="./images/logo/icon-pay-04.png.webp" alt="">
+                <img src="./images/logo/icon-pay-05.png.webp" alt="">
+            </div>
+            <span>copyright &copy; all rights reserved | this template is made with by CodeSlaves</span>
+        </div>
+    </section>
+
+    <!---- swiper js cdn link ---->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+    <!----customer js file ---->
+    <script src="./script.js"></script>
+    
+</body>
+</html>
